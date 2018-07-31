@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pigcade network rules</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.enjoy-css {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 76px/1 "amaranth", Helvetica, sans-serif;
+  color: #ff007f;
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.punishdropdown {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 19px/1 "amaranth", Helvetica, sans-serif;
+  color: #000000;
+  text-align: right;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.rule7 {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 19px/1 "amaranth", Helvetica, sans-serif;
+  color: #000000;
+  text-align: left;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.rule5 {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 19px/1 "amaranth", Helvetica, sans-serif;
+  color: #000000;
+  text-align: left;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.rule5 {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 19px/1 "amaranth", Helvetica, sans-serif;
+  color: #000000;
+  text-align: left;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.rule4 {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 19px/1 "amaranth", Helvetica, sans-serif;
+  color: #000000;
+  text-align: left;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.whynot1 {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 19px/1 "amaranth", Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.rule6 {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 19px/1 "amaranth", Helvetica, sans-serif;
+  color: #000000;
+  text-align: left;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.rule1 {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 19px/1 "amaranth", Helvetica, sans-serif;
+  color: #000000;
+  text-align: left;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.rule2 {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 19px/1 "amaranth", Helvetica, sans-serif;
+  color: #000000;
+  text-align: left;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.ruledrop2 {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 19px/1 "amaranth", Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.rule3 {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 19px/1 "amaranth", Helvetica, sans-serif;
+  color: #000000;
+  text-align: left;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.ruledrop3 {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 19px/1 "amaranth", Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+</style>
+</head>
+<body>
+<!–Rules title –>
+<div class="enjoy-css">Rules</div>
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+
+<!-Break->
+<br>
+<!–Rule 1 –>
+
+<div class="rule1">1) Don't ask when we will release a update</div>
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+
+<!– Drop down menu for rule one–>
+<div class="dropdown">
+<input type="button" class="whynot1" value="Why not?" />
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+  <div class="dropdown-content">
+    <p>Its annoying and not needed.</p>
+  </div>
+</div>
+<!-Punish time for rule one->
+<div class="dropdown">
+<input type="button" class="punishdropdown" value="Punishment" />
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+  <div class="dropdown-content">
+    <p>1 warning point. 3 warning poings are a ban</p>
+  </div>
+</div>
+<br>
+<!- break ->
+<br>
+<!- Rule 2->
+
+<div class="rule2">2) Dont make ads</div>
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+
+<!-drop down menu for rule 2->
+<div class="dropdown">
+<input type="button" class="ruledrop2" value="More info" />
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+  <div class="dropdown-content">
+    <p>You can mention a server when your talking about a feature in the server</p>
+  </div>
+</div>
+<!-Punish time for rule 2->
+<div class="dropdown">
+<input type="button" class="punishdropdown" value="Punishment" />
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+  <div class="dropdown-content">
+    <p>1 warning point. 3 warning poings are a ban</p>
+  </div>
+</div>
+<br>
+<!-Break->
+<br>
+<!-rule 3->
+<div class="rule3">3) Dont spam</div>
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+<!-drop down menu for rule 3->
+<div class="dropdown">
+<input type="button" class="ruledrop3" value="Why not?" />
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+  <div class="dropdown-content">
+    <p>Its annoying</p>
+  </div>
+</div>
+<!-Punish time for rule 3->
+<div class="dropdown">
+<input type="button" class="punishdropdown" value="Punishment" />
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+  <div class="dropdown-content">
+    <p>1 warning point. 3 warning poings are a ban</p>
+  </div>
+</div>
+<br>
+<!-Break->
+<br>
+<!-rule 4->
+<div class="rule4">4) Dont spam @(user)</div>
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+<!-drop down menu for rule 4->
+<div class="dropdown">
+<input type="button" class="ruledrop3" value="Why not?" />
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+  <div class="dropdown-content">
+    <p>Its annoying, they get an email.</p>
+  </div>
+</div>
+<!-Punish time for rule 4->
+<div class="dropdown">
+<input type="button" class="punishdropdown" value="Punishment" />
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+  <div class="dropdown-content">
+    <p>1 warning point. 3 warning poings are a ban</p>
+  </div>
+</div>
+<br>
+<!-Break->
+<br>
+<!-rule 5->
+<div class="rule5">5) Dont swear/be respectful</div>
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+<!-drop down menu for rule 5->
+<div class="dropdown">
+<input type="button" class="ruledrop3" value="Why not?" />
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+  <div class="dropdown-content">
+    <p>There is no need to be rude.</p>
+  </div>
+</div>
+<!-Punish time for rule 5->
+<div class="dropdown">
+<input type="button" class="punishdropdown" value="Punishment" />
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+  <div class="dropdown-content">
+    <p>1 warning point. 3 warning poings are a ban</p>
+  </div>
+</div>
+<br>
+<!-Break->
+<br>
+<!-rule 6->
+<div class="rule5">6) Dont ask for likes</div>
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+<!-drop down menu for rule 6->
+<div class="dropdown">
+<input type="button" class="ruledrop3" value="Why not?" />
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+  <div class="dropdown-content">
+    <p>There is no need.</p>
+  </div>
+</div>
+<!-Punish time for rule 6->
+<div class="dropdown">
+<input type="button" class="punishdropdown" value="Punishment" />
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+  <div class="dropdown-content">
+    <p>You will be asked to stop. Staff will decide if to warn or ban you if you continue.</p>
+  </div>
+</div>
+<br>
+<!-Break->
+<br>
+<!-rule 7->
+<div class="rule6">7) Dont ban envade </div>
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+<!-drop down menu for rule 6->
+<div class="dropdown">
+<input type="button" class="ruledrop3" value="Why not?" />
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+  <div class="dropdown-content">
+    <p>You were banned for a reason. wait it out</p>
+  </div>
+</div>
+<!-Punish time for rule 7->
+<div class="dropdown">
+<input type="button" class="punishdropdown" value="Punishment" />
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+  <div class="dropdown-content">
+    <p>Ip ban</p>
+  </div>
+</div>
+<br>
+<!-Break->
+<br>
+<!-rule 8->
+<div class="rule7">8)Dont necro post</div>
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+<!-drop down menu for rule 6->
+<div class="dropdown">
+<input type="button" class="ruledrop3" value="Whats that? Why not?" />
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+  <div class="dropdown-content">
+    <p>Necro posting is when you post on a thread thats over 2 weeks old. Dont do it because its annoying.</p>
+  </div>
+</div>
+<!-Punish time for rule 4->
+<div class="dropdown">
+<input type="button" class="punishdropdown" value="Punishment" />
+<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+  <div class="dropdown-content">
+    <p>You will be asked to stop. Staff will decide if to warn or ban you if you continue.</p>
+  </div>
+</div>
+<br>
+<!-Break->
+</body>
+</html>
